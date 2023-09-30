@@ -1,0 +1,101 @@
+/* Estilos para los elementos del formulario */
+.formulario1 {
+    margin-bottom: 30px; /* Margen inferior para separar elementos */
+    margin-left: 340px; /*Margen izquierdo*/
+    margin-right: 340px; /*Margen derecho*/
+}
+
+/* Estilos para las etiquetas */
+.formulario2 {
+    font-size: 17px; /* Tamaño de fuente */
+    color: #000000; /* Color de texto */
+    margin-right: 10px; /* Margen derecho */
+    font-weight: bold; /* Fuente en negritas */
+}
+
+/* Estilos para la barra de Pelicula, Descripcion y boton */
+.formularioActividad {
+    width: 100%; /* Ancho completo */
+    padding: 5px; /* Espacio interno */
+    border: 1px solid #000000; /* Borde con color negro */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Margen inferior para separar campos de entrada */
+}
+
+.formularioDescripcion {
+    width: 100%; /* Ancho completo */
+    height: 100px; /*Largo de la barra*/
+    padding: 10px; /* Espacio interno */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 1px solid #000000; /* Borde con color negro */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-bottom: 5px; /* Margen inferior para separar campos de entrada */
+}
+
+.boton {
+    background-color: #000000; /* Color de fondo */
+    color: #fff; /* Color de texto (blanco) */
+    padding: 10px 15px; /* Espacio interno (padding) */
+    font-size: 15px; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    text-align: center;
+    margin-block-start: 0.2px;
+    margin-block-end: 40px;
+    margin-left: 340px;
+}
+
+.section {
+    background-color: #ffffff; /* Color de fondo */
+    border: 1px solid #ffffff; /* Color de bordes */
+    margin-block-start: 0.5px;
+    margin-block-end: 40px;
+    margin-left: 340px;
+    margin-right: 340px;
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+.editar {
+    background-color: #000000; /* Color de fondo */
+    color: #fff; /* Color de texto (blanco) */
+    padding: 10px 15px; /* Espacio interno (padding) */
+    font-size: 15px; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+}
+
+.eliminar {
+    background-color: #000000; /* Color de fondo */
+    color: #fff; /* Color de texto (blanco) */
+    padding: 10px 15px; /* Espacio interno (padding) */
+    font-size: 15px; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+}
+
+/* Estilos para el footer */
+.mi-footer {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color de texto (blanco) */
+    text-align: center; /* Alineación de texto al centro */
+    padding: 10px; /* Espaciado interno */
+}
+
+/*Pagina responsiva*/
+@media (max-width: 768px) {
+    .formulario1,
+    .formulario2,
+    .formularioActividad,
+    .formularioDescripcion,
+    .boton,
+    .section {
+      margin: 10px; 
+      padding: 10px; 
+    }
+  }

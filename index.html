@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD: PELICULA</title>
+    <link rel="stylesheet" href="styles.css"> <!--Ruta para enlazar las clases de mis elementos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!--Ruta para enlazar bootstrap-->
+</head>
+<body>
+    <!--Barra de Navegacion-->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/Logo.jpg" class="rounded-circle" alt="..." width="50" height="50">
+                Peliculas Favoritas
+            </a>
+        </div>
+    </nav>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Dinamica o breve descrpcion de la actividad-->
+    <div class="mx-auto"style="width: 600px;">
+        <div class="container mt-5">
+            <h1>¡Bienvenido amante del cine!</h1>
+            <div class="texto">
+                <p class="lh-lg"> Este espacio creado con el proposito de los verdaderos amantes del cine, podras agregar un conjunto de peliculas pendientes por ver, tendras la opcion de agregar tu lista de peliculas pendientes con opcion de poder editar, eliminar para añadir una nueva pelicula.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Formulario para añadir mis dos elementos principales "Pelicula" y "Descripcion"-->
+    <form>
+        <div class="formulario1"> 
+            <label for="pelicula" class="formulario2">Pelicula</label>
+            <input id="pelicula" type="text" class="formularioActividad"> <!--Barra de pelicula-->
+        </div>
+        <div class="formulario1">
+            <label for="descripcion" class="formulario2">Descripción</label>
+            <input id="descripcion" type="text" class="formularioDescripcion"> <!--Barra de descripcion-->
+        </div>
+        <button id="enviar" type="text" class="boton">Enviar</button>
+    </form>
+
+    <!--Section para enseñar todos los valores almacenados y opciones editables-->
+    <section id="mostrar" class="section"></section>
+
+    <!--Footer de mi pagina-->
+    <footer class="mi-footer">
+        <p>&copy; 2023 Mi Compañía. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
