@@ -8,8 +8,8 @@
 /* Estilos para las etiquetas */
 .formulario2 {
     font-size: 17px; /* Tamaño de fuente */
-    color: #000000; /* Color de texto */
-    margin-right: 10px; /* Margen derecho */
+    color: #c300ff; /* Color de texto */
+    margin-right: 15px; /* Margen derecho */
     font-weight: bold; /* Fuente en negritas */
 }
 
@@ -17,7 +17,7 @@
 .formularioActividad {
     width: 100%; /* Ancho completo */
     padding: 5px; /* Espacio interno */
-    border: 1px solid #000000; /* Borde con color negro */
+    border: 1px solid #ff0000; /* Borde con color negro */
     border-radius: 5px; /* Bordes redondeados */
     font-size: 16px; /* Tamaño de fuente */
     margin-bottom: 10px; /* Margen inferior para separar campos de entrada */
